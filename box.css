@@ -1,0 +1,48 @@
+/* horizontal vertical */
+.container{
+    width: 300px;
+    height: 200px;
+    background-color: gold;
+    box-shadow: 10px 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*/* blur effect and color for the shadow */
+.container1{
+    width: 300px;
+    height: 200px;
+    background-color:gold;
+    box-shadow: 10px 10px 5px sandybrown;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* spread radius */
+.container2{
+    width: 300px;
+    height: 200px;
+    background-color:gold;
+    box-shadow: 10px 10px 5px 10px seagreen;
+    margin: 10px;
+    padding: 10px;
+}
+/* inset parameter */
+.container3{
+    width: 300px;
+    height: 200px;
+    background-color:gold;
+    box-shadow: 10px 10px 5px darkgoldenrod inset;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* multiple shadow */
+.container4{
+    width: 300px;
+    height: 200px;
+    background-color:gold;
+    box-shadow: 10px 10px 5px sandybrown, 10px 20px 5px darkviolet, 10px 5px 10px green;
+    margin: 10px;
+    padding: 10px;
+}
